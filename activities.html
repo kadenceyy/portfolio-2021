@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/png" href="images/M.png">
+	<link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400&display=swap" rel="stylesheet">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>UMM Wellness</title>
+</head>
+<body>
+	<header>
+	<a class="skip" href="#skip">Skip to Main Content</a>
+	<div class="mobile-container">
+		<!-- Top Navigation Menu -->
+	<div class="topnav">
+		<a href="home.html" class="active"><img src="images/M.png" width="30" alt="Wellness Universe Logo"></a>
+		<div id="myLinks">
+			<nav>
+				<ul class="nav_links">
+					<li class="nav_item"><a href = "home.html">Home</a></li>
+					<li class="nav_item"><a href= "activities.html">Activities</a></li>
+					<li class="nav_item"><a href= "resources.html">Resources</a></li>
+					<li class="nav_item"><a href= "contact.html">Contact</a></li>
+				</ul>
+			</nav>	
+		</div>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"aria-label=”Open the menu”></i>
+			<!-- <i class=”fa fa-bars” aria-hidden=”true”></i> -->
+			<!-- <a=”#menu” id=”menu-toggle” class=”menu-toggle” aria-label=”Open the menu”></a> -->
+		</a>
+	</div>
+		<!-- End smartphone / tablet look -->
+	</div>
+		
+	<script>
+	function myFunction() {
+		var x = document.getElementById("myLinks");
+		if (x.style.display === "block") {
+		x.style.display = "none";
+		} else {
+		x.style.display = "block";
+		}
+	}
+	</script>
+		<h1>Activities</h1>
+	</header>
+        <!-- <ul class="nav_links">
+            <li class="nav_item"><a href="#main">U-M Wellness</a></li>
+            <li class="nav_item"><a href="#pricing">Services</a></li>
+            <li class="nav_item"><a href="#gallery">Resources</a></li>
+            <li class="nav_item"><a href="#gallery">Contact</a></li>
+          </ul> -->
+	<main class="container" id="skip">
+
+	<h2 id = "content">Relaxation ideas</h2>
+		<div class="about-text-block">
+			<a id="about"></a>
+			<header><h3>About</h3></header>
+			<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam pulvinar euismod dolor, eu aliquam nibh efficitur vel. Phasellus sit amet velit congue, finibus nibh eu, ultricies magna. Donec eu ultrices eros. Donec sit amet metus nisi. Nulla tincidunt justo non risus aliquam, sit amet lacinia lacus commodo. Aliquam ultricies ante sed semper porta. Integer eros tortor, convallis eu ultricies malesuada, fringilla sed libero. Aenean molestie rhoncus leo eu imperdiet. Mauris eget molestie massa. Maecenas auctor sapien a arcu laoreet, et consectetur odio scelerisque. Praesent ac turpis sed neque porttitor finibus faucibus quis tortor. Morbi tempus turpis lacus, nec laoreet tellus rhoncus quis. Aliquam vitae dolor urna. In pellentesque ullamcorper turpis, commodo cursus mauris condimentum eget.</p>
+		</div>
+	
+		<div class="wellness-image">
+			<img src="images/wellbeing.png" alt="wellness image"/>
+		</div>
+
+
+	<p class="datacite">Data from <a href="https://pigeon-ndb.com/results/hof">American Racing Pidgeon Union</a></p>
+	</main>
+
+		<footer>
+			<p class="email"><a href = "mailto: kadence@umich.edu">kadence@umich.edu</a></p>
+			<p>Kadence T. &copy; 2021</p>
+		</footer>
+	</body>
+</html>
